@@ -10,4 +10,5 @@
  ![Design preview for the Blogify Blog Website](./images/desktop_preview_2.jpg)
  
 # Mobile Screenshots
-
+ ![Design preview for the Blogify Blog Website](./images/mobile_preview_1.jpg)  ![Design preview for the Blogify Blog Website](./images/mobile_preview_2.jpg)
+ ![Design preview for the Blogify Blog Website](./images/mobile_preview_3.jpg)  ![Design preview for the Blogify Blog Website](./images/mobile_preview_4.jpg)
