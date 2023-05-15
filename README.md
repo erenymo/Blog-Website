@@ -4,5 +4,5 @@
  Live Site URL : [Click Me](https://erenymo.github.io/Blog-Website/)
  
  # Screenshots
- 
+ ![Design preview for the Blogify Blog Website](./images/desktop_preview_1.jpg)
  
