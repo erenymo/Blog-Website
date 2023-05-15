@@ -9,3 +9,5 @@
  
  ![Design preview for the Blogify Blog Website](./images/desktop_preview_2.jpg)
  
+# Mobile Screenshots
+
