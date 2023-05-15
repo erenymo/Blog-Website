@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Project</title>
+    <link rel="stylesheet" href="./output/tailwind.css" />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-poppins text-gray-600">
+    <!----------- Header Nav Part ----------->
+    <nav class="bg-transparent shadow-2xl shadow-sky-500">
+      <div
+        class="container mx-auto px-4 py-3 flex items-center justify-between"
+      >
+        <a href="index.html" class="">
+          <img class="h-20" src="./images/blogify.jpg" alt="Company logo" />
+        </a>
+
+        <div class="ml-12 xl:flex space-x-5 hidden">
+          <a
+            href="index.html"
+            class="flex items-center font-semibold text-md text-red-400 transition hover:opacity-60"
+          >
+            <span class="mr-2">
+              <!--Icon-->
+              <i class="fas fa-home"></i>
+            </span>
+            Home
+          </a>
+        </div>
+
+        <div class="ml-12 xl:flex space-x-5 hidden">
+          <a
+            href="#"
+            class="flex items-center font-semibold text-md text-red-400 transition hover:opacity-60"
+          >
+            <span class="mr-2">
+              <!--Icon-->
+              <i class="fas fa-file-alt"></i>
+            </span>
+            About
+          </a>
+        </div>
+
+        <div class="ml-12 xl:flex space-x-5 hidden">
+          <a
+            href="#"
+            class="flex items-center font-semibold text-md text-red-400 transition hover:opacity-60"
+          >
+            <span class="mr-2">
+              <!--Icon-->
+              <i class="fas fa-phone"></i>
+            </span>
+            Contact
+          </a>
+        </div>
+
+        <div class="relative ml-auto hidden xl:block">
+          <!--search bar-->
+          <span class="absolute left-3 top-2 text-sm text-gray-600">
+            <i class="fas fa-search"></i>
+          </span>
+          <input
+            class="block w-full rounded-3xl pl-10 pr-3 py-2 bg-white focus:outline-none text-sm text-gray-600 shadow-sm shadow-slate-300"
+            type="text"
+            placeholder="Search..."
+          />
+        </div>
+
+        <div class="ml-5 xl:flex space-x-5 hidden">
+          <a
+            href="#"
+            class="flex items-center font-semibold text-md text-red-400 transition hover:opacity-60"
+          >
+            <span class="mr-2">
+              <i class="far fa-user"></i>
+            </span>
+            Sign In
+          </a>
+        </div>
+
+        <!--MOBILE NAV ICON-->
+        <div
+          class="text-xl text-gray-700 cursor-pointer ml-4 xl:hidden block hover:text-blue-700 transition"
+          id="open_sidebar"
+        >
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!----------- END Header Nav Part ----------->
+
+    <div class="py-12 bg-gray-50">
+      <div class="container mx-auto px-4 flex flex-wrap lg:flex-nowrap gap-6">
+        
+
+        <div class="xl:w-9/12 lg:w-9/12 w-full">
+          <!--MIDDLE COLUMN-->
+          <div
+            class="flex bg-white px-3 py-4 justify-between items-center rounded-t-lg"
+          >
+            <h5 class="text-xl text-red-400 uppercase font-semibold font-roboto">
+              Nature
+            </h5>
+            <a
+              href="index.html"
+              class="text-white py-1 px-3 bg-red-400 rounded-full uppercase text-sm border border-red-400 hover:text-red-400 hover:bg-transparent transition"
+              >See More</a
+            >
+          </div>
+
+          <!----------- START BLOG MAIN POST ----------->
+          <div class="rounded-b-lg overflow-hidden bg-white shadow-sm">
+            <div class="p-3">
+              <a class="block rounded-lg overflow-hidden">
+                <img
+                  src="./images/pic2.png"
+                  alt="Blog Post Picture"
+                  class="w-full h-96 object-cover rounded-lg "
+                />
+              </a>
+            </div>
+            <div class="p-4 pb-5">
+              <a class="">
+                <h2
+                  class="block text-4xl font-semibold text-gray-500 font-roboto"
+                >
+                Hurricane Irma: A Retrospective Look at One of the Most Powerful Storms
+                  
+                </h2>
+              </a>
+
+              <p class="text-gray-500 text-md mt-2 first-letter:text-3xl">
+                In the history of Atlantic hurricanes, few names evoke the same level of dread and destruction as Hurricane Irma. As we look back, we can begin to comprehend the scale of its impact and the lessons we learned from it.
+<br><br>
+Hurricane Irma, classified as a Category 5 at its peak intensity, was a part of the 2017 hurricane season. Originating from a tropical wave off the coast of Cape Verde, Irma rapidly intensified, reaching peak sustained winds of 185 mph. The storm left a trail of devastation across several Caribbean islands before making landfall in the Florida Keys on September 10, 2017.<br> <br>
+
+The small island nations in Irma's path bore the brunt of its fury. Barbuda, an island in the Antigua and Barbuda archipelago, was almost entirely decimated, rendering about 95% of its structures uninhabitable. Similarly, the island of Saint Martin, known for its vibrant tourism industry, faced severe destruction.
+
+As Irma moved towards Florida, it prompted one of the largest evacuations in the history of the United States. Nearly 6.5 million people were ordered to evacuate their homes. Despite weakening to a Category 4 hurricane upon making landfall in Florida, Irma still brought widespread damage due to strong winds, heavy rains, and storm surges.
+<br><br> The aftermath of Hurricane Irma was a scene of widespread destruction and loss. The storm caused 134 deaths, displaced thousands of people, and resulted in approximately $50 billion in damage, making it one of the costliest hurricanes in US history.
+
+However, amidst the destruction, Hurricane Irma taught us several invaluable lessons. It underscored the importance of early and accurate forecasting, effective communication, and comprehensive evacuation plans in mitigating the impact of such natural disasters. The National Hurricane Center's forecasts for Irma were remarkably accurate, providing officials with the necessary information to order evacuations in a timely manner. The coordination between local, state, and federal agencies, along with the proactive response of residents, also played a crucial role in minimizing the loss of life. <br> <br>
+
+Moreover, Irma highlighted the realities of climate change. Scientists argue that while hurricanes are natural occurrences, the increased intensity and frequency of these storms could be linked to warming oceans and higher sea levels. As such, Hurricane Irma serves as a stark reminder of our vulnerability to climate change and the urgent need to address it.
+
+In the face of such disasters, the resilience and unity of communities also come to the fore. Following Irma's devastation, there were countless stories of heroism, generosity, and solidarity. Neighbors helped neighbors, strangers helped strangers, and entire communities came together to rebuild and recover. <br> <br>
+
+                 
+                 
+                 <p class="first-letter:text-3xl text-gray-500">At the end of the day, Hurricane Irma will forever be remembered not only for the destruction it caused but also for the lessons it taught us. It was a testament to the power of nature and the resilience of humanity. As we continue to face the threat of such devastating hurricanes, it is crucial that we heed the lessons from Irma - the need for early preparedness, effective communication, comprehensive planning, and most importantly, recognizing and addressing the looming threat of climate change.</p> 
+              </p>
+
+              <br>
+              <div class="mt-2 flex space-x-4">
+                <div class="flex text-gray-400 text-md items-center">
+                  <span class="mr-2">
+                    <i class="far fa-user"></i>
+                  </span>
+                  Bloging Tips
+                </div>
+
+                <div class="flex text-gray-400 text-md items-center">
+                  <span class="mr-2">
+                    <i class="far fa-clock"></i>
+                  </span>
+                  Aug 30, 2019
+                </div>
+              </div>
+            </div>
+          </div>
+          <!----------- END BLOG MAIN POST ----------->
+
+          <!------START COMMENT------>
+
+          <div class="p-4 bg-white rounded-xl mt-8">
+            <h4 class="text-base uppercase font-semibold font-roboto mb-4">Post A Comment</h4>
+            <p class="text-sm text-gray-500 mb-2">13 Comments</p>
+
+            <div class="space-y-5">
+                <div class="flex items-center border-b pb-5 border-gray-300">
+                    <div class="w-16 h-16 flex-shrink-0 overflow-hidden rounded-full">
+                        <img class="w-full object-cover rounded-full" src="./images/pp1.jpg" alt="Profile photo">
+                    </div>
+
+
+                    <div class="flex-grow pl-4">
+                        <h4 class="text-base font-roboto">
+                            John Smith
+                        </h4>
+                        <p class="text-xs text-gray-400">14 May 2022 at 18:26 PM</p>
+                        <p class="text-sm  mt-2">An insightful retrospective on Hurricane Irma. It emphasizes the importance of preparedness and the role of climate change in such disasters. A great read!</p>
+                        <div class="flex gap-3 mt-2">
+                            <button class="text-xs border border-gray-200 shadow-md rounded py-1 px-3 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition duration-100"><i class="fa-solid fa-reply"></i> Reply</button>
+
+                            <button class="text-xs border border-red-500 shadow-md rounded py-1 px-3 bg-red-500 text-white transition duration-100 transform hover:-translate-y-1"> <i class="fa fa-heart"></i> Like</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center border-b pb-5 border-gray-300">
+                    <div class="w-16 h-16 flex-shrink-0 overflow-hidden rounded-full">
+                        <img class="w-full object-cover rounded-full" src="./images/pp2.jpg" alt="Profile photo">
+                    </div>
+
+
+                    <div class="flex-grow pl-4">
+                        <h4 class="text-base font-roboto">
+                            Stephanie Liverani
+                        </h4>
+                        <p class="text-xs text-gray-400">14 May 2022 at 20:11 PM</p>
+                        <p class="text-sm  mt-2">This article beautifully captures the devastating power of Hurricane Irma, while also highlighting the resilience of communities in the face of adversity. Truly moving.</p>
+                        <div class="flex gap-3 mt-2">
+                            <button class="text-xs border border-gray-200 shadow-md rounded py-1 px-3 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition duration-100"><i class="fa-solid fa-reply"></i> Reply</button>
+
+                            <button class="text-xs border border-red-500 shadow-md rounded py-1 px-3 bg-red-500 text-white transition duration-100 transform hover:-translate-y-1"> <i class="fa fa-heart"></i> Like</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex items-center border-b pb-5 border-gray-300">
+                    <div class="w-16 h-16 flex-shrink-0 overflow-hidden rounded-full">
+                        <img class="w-full object-cover rounded-full" src="./images/pp3.jpg" alt="Profile photo">
+                    </div>
+
+
+                    <div class="flex-grow pl-4">
+                        <h4 class="text-base font-roboto">
+                            Micheal Deam
+                        </h4>
+                        <p class="text-xs text-gray-400">15 May 2023 at 09:48 AM</p>
+                        <p class="text-sm  mt-2">Incredible reflection on Hurricane Irma. The emphasis on lessons learned and the impact of climate change is very thought-provoking. It underscores the urgent need for action.</p>
+                        <div class="flex gap-3 mt-2">
+                            <button class="text-xs border border-gray-200 shadow-md rounded py-1 px-3 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition duration-100"><i class="fa-solid fa-reply"></i> Reply</button>
+
+                            <button class="text-xs border border-red-500 shadow-md rounded py-1 px-3 bg-red-500 text-white transition duration-100 transform hover:-translate-y-1"> <i class="fa fa-heart"></i> Like</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <form action="#" class="mt-8">
+                <h5 class="text-base mb-1">Comment</h5>
+                <textarea class="w-full border border-gray-500 py-3 px-5 text-sm rounded-sm h-20 focus:outline-none focus:border-gray-800" type="text" ></textarea>
+                <div class="mt-2 flex justify-end">
+                    <button type="submit" class="text-white py-1 px-3 rounded-sm uppercase text-sm bg-rose-300 border border-rose-300 hover:text-rose-300 hover:bg-transparent hover:border-rose-300">
+                        Submit
+                    </button>
+                </div>
+            </form>
+          </div>
+
+          <!------END COMMENT------>
+        
+        </div>
+
+        <div class="lg:w-3/12 w-full mt-8 lg:mt-0">
+          <!--RIGHT COLUMN-->
+          <!----------- START SOCIALS ----------->
+          <div class="w-full bg-white shadow-sm rounded-xl p-4">
+            <h3
+              class="text-xl font-semibold uppercase text-rose-300 font-roboto"
+            >
+              Socials
+            </h3>
+
+            <div class="flex gap-2 mt-4">
+              <a
+                href="https://github.com/erenymo"
+                target="_blank"
+                class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:border-black hover:text-black hover:scale-105 transition duration-200"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:border-blue-700 hover:text-blue-700 hover:scale-105 transition duration-200"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:border-sky-400 hover:text-sky-400 hover:scale-105 transition duration-200"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:border-violet-500 hover:text-violet-500 hover:scale-105 transition duration-200"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:border-red-500 hover:text-red-500 hover:scale-105 transition duration-200"
+              >
+                <i class="fab fa-pinterest-p"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-8 h-8 rounded-sm flex items-center justify-center border border-gray-400 text-base text-gray-800 hover:border-blue-700 hover:text-blue-700 hover:scale-105 transition duration-200"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <!----------- END SOCIALS ----------->
+
+
+          <div class="bg-white shadow-white shadow-sm rounded-xl p-4 mt-6">
+            <!-- CATEGORIES AREA-->
+            <h3 class="text-xl text-rose-300 font-roboto font-semibold">
+              CATEGORIES
+            </h3>
+            <!--START CATEGORY SIDEBAR-->
+            <div class="text-gray-400 space-y-2 mt-4">
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Beauty </span>
+                <span class="font-normal ml-auto"> (12) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Business </span>
+                <span class="font-normal ml-auto"> (16) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Diet </span>
+                <span class="font-normal ml-auto"> (24) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Fashion </span>
+                <span class="font-normal ml-auto"> (5) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Music </span>
+                <span class="font-normal ml-auto"> (7) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Nature </span>
+                <span class="font-normal ml-auto"> (11) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> News </span>
+                <span class="font-normal ml-auto"> (19) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Sport </span>
+                <span class="font-normal ml-auto"> (9) </span>
+              </a>
+
+              <a
+                href="#"
+                class="flex items-center font-medium leading-4 hover:text-rose-300 transition uppercase"
+              >
+                <span class="mr-2">
+                  <i class="far fa-folder-open"></i>
+                </span>
+                <span> Technology </span>
+                <span class="font-normal ml-auto"> (27) </span>
+              </a>
+            </div>
+            <!--END CATEGORY SIDEBAR-->
+          </div>
+
+
+          <!----------- START POPULAR POST ----------->
+
+          <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+            <h3
+              class="text-xl uppercase font-semibold text-rose-300 font-roboto"
+            >
+              Popular Posts
+            </h3>
+
+            <div class="mt-4 text-gray-400">
+              <a href="view.html" class="flex group mt-4">
+                <div class="flex-shrink-0">
+                  <img
+                    src="./images/pic6.png"
+                    class="h-14 w-20 rounded object-cover hover:brightness-110"
+                    alt="Fashion blog picture"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-rose-300"
+                  >
+                  10 Tips for Effective Online Business Meetings
+                  </h5>
+
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="far fa-clock"></i>
+                    </span>
+                    May 5, 2023
+                  </div>
+                </div>
+              </a>
+
+              <a href="view-the-best-shortcut-to-lose-weight.html" class="flex group mt-4">
+                <div class="flex-shrink-0">
+                  <img
+                    src="./images/pic5.png"
+                    class="h-14 w-20 rounded object-cover hover:brightness-110"
+                    alt="Sport blog picture"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-rose-300"
+                  >
+                    The Best Shortcut To Lose Weight
+                  </h5>
+
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="far fa-clock"></i>
+                    </span>
+                    Dec 22, 2020
+                  </div>
+                </div>
+              </a>
+
+              <a href="view-1-simple-rule-to-be-disciplined.html" class="flex group mt-4">
+                <div class="flex-shrink-0">
+                  <img
+                    src="./images/pic3.png"
+                    class="h-14 w-20 rounded object-cover hover:brightness-110"
+                    alt="Discipline blog picture"
+                  />
+                </div>
+                <div class="flex-grow pl-3">
+                  <h5
+                    class="text-md leading-5 block font-roboto font-semibold transition group-hover:text-rose-300"
+                  >
+                    1 Simple Rule to be Disciplined
+                  </h5>
+
+                  <div class="flex text-gray-400 text-sm items-center">
+                    <span class="mr-1 text-xs">
+                      <i class="far fa-clock"></i>
+                    </span>
+                    Jul 18, 2022
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!----------- END POPULAR POST ----------->
+
+          <!----------- START TAGS ----------->
+
+          <div class="bg-white shadow-sm shadow-white rounded-xl p-4 mt-6">
+            <h3
+              class="text-xl uppercase font-semibold text-rose-300 font-roboto"
+            >
+              Tags
+            </h3>
+
+            <div class="flex items-center flex-wrap gap-2 mt-4">
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#TechTips</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#Travel</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#Programming</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#MIS</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#Creativity</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#FoodieFinds</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#FitnessMotivation</a
+              >
+
+              <a
+                href="#"
+                class="px-3 py-1 border text-sm border-gray-300 rounded-sm transition text-rose-300 hover:bg-rose-300 hover:text-white hover:border-rose-300"
+                >#SelfImprovement</a
+              >
+            </div>
+          </div>
+          <!----------- END TAGS ----------->
+        </div>
+      </div>
+    </div>
+
+    <!---////// START Mobile Menu /////-->
+
+    <div
+      class="fixed w-full h-full bg-black bg-opacity-25 left-0 top-0 opacity-0 invisible transition-all duration-500 xl:hidden"
+      id="sidebar_wrapper"
+    >
+      <div
+        class="fixed top-0 w-72 h-full bg-white shadow-sm flex flex-col transition-all duration-500 -left-80"
+        id="sidebar"
+      >
+        <div class="xl:hidden">
+          <div class="relative mx-3 mt-3">
+            <!--search bar-->
+            <span class="absolute left-3 top-2 text-sm text-rose-400">
+              <i class="fas fa-search"></i>
+            </span>
+            <input
+              class="block w-full rounded-3xl pl-10 pr-3 py-2 bg-rose-50 placeholder-rose-400 focus:outline-none text-sm text-red-500 shadow-sm shadow-slate-300"
+              type="text"
+              placeholder="Search..."
+            />
+          </div>
+
+          <div class="ml-5 xl:flex space-x-5 my-10">
+            <a
+              href="#"
+              class="flex items-center font-semibold text-md text-rose-300 hover:brightness-110 transition"
+            >
+              <span class="mr-2">
+                <i class="far fa-user"></i>
+              </span>
+              Sign In
+            </a>
+          </div>
+
+          <h3
+            class="text-xl font-semibold text-rose-300 mb-1 font-roboto pl-4"
+          >
+            Menu
+          </h3>
+
+          <div class="text-gray-400">
+            <a
+              href="#"
+              class="flex px-4 py-1 items-center font-semibold text-md hover:text-rose-300 transition"
+            >
+              <span class="mr-2">
+                <!--Icon-->
+                <i class="fas fa-home"></i>
+              </span>
+              Home
+            </a>
+          </div>
+
+          <div class="text-gray-400">
+            <a
+              href="#"
+              class="flex px-4 py-1 items-center font-semibold text-md hover:text-rose-300 transition"
+            >
+              <span class="mr-3">
+                <!--Icon-->
+                <i class="fas fa-file-alt"></i>
+              </span>
+              About
+            </a>
+          </div>
+
+          <div class="text-gray-400">
+            <a
+              href="#"
+              class="flex px-4 py-1 items-center font-semibold text-md hover:text-rose-300 transition"
+            >
+              <span class="mr-2">
+                <!--Icon-->
+                <i class="fas fa-phone"></i>
+              </span>
+              Contact
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white shadow-white shadow-sm rounded-xl p-4">
+          <!-- CATEGORIES AREA-->
+          <h3 class="text-xl font-semibold text-rose-300 font-roboto">
+            CATEGORIES
+          </h3>
+          <!--START CATEGORY SIDEBAR-->
+          <div class="text-gray-400 space-y-2 mt-4">
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Beauty </span>
+              <span class="font-normal ml-auto"> (12) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Business </span>
+              <span class="font-normal ml-auto"> (16) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Diet </span>
+              <span class="font-normal ml-auto"> (24) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Fashion </span>
+              <span class="font-normal ml-auto"> (5) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Music </span>
+              <span class="font-normal ml-auto"> (7) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Nature </span>
+              <span class="font-normal ml-auto"> (11) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> News </span>
+              <span class="font-normal ml-auto"> (19) </span>
+            </a>
+
+            <a
+              href="#all-post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Sport </span>
+              <span class="font-normal ml-auto"> (9) </span>
+            </a>
+
+            <a
+              href="#all_post"
+              class="flex items-center font-semibold leading-4 hover:text-rose-300 transition uppercase"
+            >
+              <span class="mr-2">
+                <i class="far fa-folder-open"></i>
+              </span>
+              <span> Technology </span>
+              <span class="font-normal ml-auto"> (27) </span>
+            </a>
+          </div>
+          <!--END CATEGORY SIDEBAR-->
+        </div>
+
+
+        
+      </div>
+    </div>
+
+    <!---////// END Mobile Menu /////-->
+
+    <footer class="border-t py-4">
+      <div class="h-20 w-full flex items-center justify-center">
+        <p class="text-sm text-center">
+          Made by
+          <a
+            href="https://github.com/erenymo"
+            target="_blank"
+            class="ml-1 inline-block font-semibold hover:text-gray-500 transform hover:-translate-y-1 duration-200"
+            ><i class="fab fa-github"></i> Erenymo</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .querySelector("#open_sidebar")
+        .addEventListener("click", function () {
+          document.querySelector("#sidebar").classList.remove("-left-80");
+          document.querySelector("#sidebar").classList.add("left-0");
+          document
+            .querySelector("#sidebar_wrapper")
+            .classList.remove("opacity-0");
+          document
+            .querySelector("#sidebar_wrapper")
+            .classList.remove("invisible");
+        });
+
+      document.body.addEventListener("click", function (e) {
+        if (e.target.id === "sidebar_wrapper") {
+          document.querySelector("#sidebar").classList.add("-left-80");
+          document.querySelector("#sidebar").classList.remove("left-0");
+          document.querySelector("#sidebar_wrapper").classList.add("opacity-0");
+          document.querySelector("#sidebar_wrapper").classList.add("invisible");
+        }
+      });
+    </script>
+  </body>
+</html>
