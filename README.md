@@ -1,5 +1,5 @@
 # Blogify - Blog Website
- Static Blog Website, created by using HTML, Tailwind CSS and JS
+ Static Blog Website, created by using HTML, Tailwind CSS and basic JS for mobile navbar
  
  Live Site URL : [Click Me](https://erenymo.github.io/Blog-Website/)
  
